@@ -1,0 +1,61 @@
+@import "templatecolours.css";
+body{max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+body{ background-color: red;
+}
+header{
+    background-color: green;
+}
+main{background-color: blue;
+}
+section{background-color: orange}
+aside{background-color: yellow}
+article{background-color: purple}
+/*NAVIGATION BAR CSS */
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{float: left;
+}
+nav>ul>li a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #363636;
+}
+/*IMAGE SIZING CSS */
+#csdmlogo{
+    width: 300px;
+}
+#banner
+{
+    max-width: 980px;
+    width: 950px;
+}
+#hos{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+/* TEXT STYLING */
+h1{
+    font-family: 'Roboto Light',sans-serif;
+    font-weight: 300;
+}
+p,h2,h3,h4,h5,a{
+    font-family: 'Roboto Light',sans-serif;
+    font-weight:  400;
+}
+h3,h4,h5, a{font-family: 'Roboto Light',sans-serif;
+    font-weight: 700;
+
+}
