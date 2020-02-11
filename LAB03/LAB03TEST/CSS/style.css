@@ -1,0 +1,112 @@
+@import "templatecolours.css";
+body{width: 960px;
+margin-left: auto;
+margin-right: auto;}
+/*navigation bar css*/
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float: left;
+}
+nav>ul>li a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+/*Selector*/
+li a:hover{
+    color: red;
+}
+#RGULOGO{
+    width: 300px;
+}
+#buildingrgu{
+ width: 960px;
+}
+#Stefanos{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+/*Text Styling*/
+h1 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+p,h2,h3,h4,h5,a{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+h3,h4,h5{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+#news{
+    background-color: lightpink;
+}
+#events{
+    background-color: purple;
+}
+aside p,h3,h4{
+    color: white;
+}
+footer{
+    background-color: gray;
+}
+/*Margin*/
+aside,p,h3,h4{
+    margin: 0;
+}
+aside h3{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside h4{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside p{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside{
+    padding-right: 0px !important;
+    margin-top: -5px!important;
+}
+main{
+    padding-right: 0px !important;
+}
+footer>p{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+/*font fix*/
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
+}
