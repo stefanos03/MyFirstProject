@@ -8,17 +8,35 @@
     <link rel="stylesheet" href="CSS/unsemantic-grid-responsive-tablet.css">
 </head>
 <body>
+<!--FACEBOOK JAVASCRIPT CODE START-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v6.0"></script>
+<!--Facebook javascript code end-->
 <main>
     <header>
-        <h1> Welcome to my website!!!</h1>
-        <h2>This is all about me</h2>
+        <h1 id="blue"> Welcome to my website!!!</h1>
+        <h2>This website is all about me</h2>
+<!--        Facebook code start-->
+        <div class="fb-like" data-href="https://github.com/stefanos03" data-width="400" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+<!--   facebook code ends-->
     </header>
     <section class="grid-container">
-    <div class="grid-66"><p>Thi is my main text </p></div>
-    <div class="grid-33"><p>This is my sidebar</p>
-    <!--TWITTER CODE STARTS-->
+        <div class="grid-66">
+            <!--        GOOGLE MAP CODE START-->
+            <h3>Want to see where i work it s a fine place</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17329.33053775332!2d-2.1290711!3d57.117119949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d8969688e77366a!2sRobert%20Gordon%20University!5e0!3m2!1sen!2suk!4v1581709832565!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+<!--        GOOGLE MAP CODE ENDS-->
+        <h3>Here a video of RGU</h3>
+<!--Youtube Code Starts-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ps11CDkNS44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--  Youtube code ends      -->
+        </div>
+        <!--TWITTER CODE STARTS-->
+        <div class="grid-33">
         <a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--   Twitter code ends-->
     </div>
     </section>
 </main>
